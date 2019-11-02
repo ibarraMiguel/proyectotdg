@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="zEstilos.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+<body>
+    <form  action="vphpProyecto.php" method="POST">
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-3 register-left">
+                    <h3>Bienvenido!</h3>
+                    <p><h1>PROYECTOS</h1></p>
+                </div>
+                    <div class="col-md-9 register-right">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Registro de Proyectos</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Identificación *" value="" name="txtID"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Título *" value="" name="txtTIT"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Fecha de Inscripción *" value="" name="txtFINS"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Fecha de Inicio " value="" name="txtFI"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Fecha de Finalización " value="" name="txtFF"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Cofinanciado *" value="" name="txtCOF"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Presupuesto " value="" name="txtPRE"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  placeholder="Porcentaje de Cofinanciación " value="" name="txtPCO"/>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control"  placeholder="Estado *" value="" name="txtEST"/>
+                                        </div>
+                                        <div class="form-group">
+                                         
+                                    </div>
+                                    <div class="form-group">
+                                            
+                                    </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control"  placeholder="Observaciones "  rows="10" cols="30" value="" name="txtOBS"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control"  placeholder="Tipo de Proyecto *"value="" name="txtTIPR"/>
+                                    </div>
+                                                                               
+                                    <input type="submit" class="btnRegister" name="boton" value="Consultar"/>
+                                    <input type="submit" class="btnRegister" name="boton" value="Guardar"/>
+                                    <input type="submit" class="btnRegister" name="boton" value="Eliminar"/>
+                                    <input type="submit" class="btnRegister" name="boton" value="Modificar"/>
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
